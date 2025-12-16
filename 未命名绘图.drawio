@@ -330,15 +330,6 @@
             <mxPoint y="5" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="MLDD8P7klCX4d31-hdX--84" parent="1" style="shape=xor;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="80" width="60" x="-190" y="880" as="geometry" />
-        </mxCell>
-        <mxCell id="MLDD8P7klCX4d31-hdX--85" parent="1" style="shape=tape;whiteSpace=wrap;html=1;" value="" vertex="1">
-          <mxGeometry height="100" width="120" x="90" y="850" as="geometry" />
-        </mxCell>
-        <mxCell id="MLDD8P7klCX4d31-hdX--86" parent="1" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="" vertex="1">
-          <mxGeometry height="60" width="120" x="-220" y="760" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
