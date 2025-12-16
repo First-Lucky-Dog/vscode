@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.7">
   <diagram name="Page-1" id="page-1">
-    <mxGraphModel dx="3432" dy="1740" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3432" dy="1338" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -329,6 +329,15 @@
           <mxGeometry relative="1" x="-0.2" y="1" as="geometry">
             <mxPoint y="5" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="MLDD8P7klCX4d31-hdX--84" parent="1" style="shape=xor;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="80" width="60" x="-190" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="MLDD8P7klCX4d31-hdX--85" parent="1" style="shape=tape;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="100" width="120" x="90" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="MLDD8P7klCX4d31-hdX--86" parent="1" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" value="" vertex="1">
+          <mxGeometry height="60" width="120" x="-220" y="760" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
