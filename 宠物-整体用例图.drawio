@@ -1,0 +1,391 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="page-1">
+    <mxGraphModel dx="1042" dy="1704" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;" value="游客" vertex="1">
+          <mxGeometry height="60" width="40" x="10" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;" value="普通用户&#xa;(user)" vertex="1">
+          <mxGeometry height="60" width="40" x="10" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;" value="商家&#xa;(shop)" vertex="1">
+          <mxGeometry height="60" width="40" x="10" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="1" style="shape=umlActor;whiteSpace=wrap;html=1;verticalLabelPosition=bottom;verticalAlign=top;" value="管理员&#xa;(admin)" vertex="1">
+          <mxGeometry height="60" width="40" x="1360" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="sys" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;fontStyle=1;align=center;" value="系统边界：宠物寄养小程序系统" vertex="1">
+          <mxGeometry height="500" width="1100" x="140" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="m1" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;dashed=1;" value="认证与用户" vertex="1">
+          <mxGeometry height="130" width="240" x="160" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="auth_hub" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="认证入口" vertex="1">
+          <mxGeometry height="30" width="60" x="170" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="A1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="检查用户" vertex="1">
+          <mxGeometry height="30" width="70" x="250" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="A2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="微信登录" vertex="1">
+          <mxGeometry height="30" width="60" x="330" y="75" as="geometry" />
+        </mxCell>
+        <mxCell id="A3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="账号登录" vertex="1">
+          <mxGeometry height="30" width="70" x="250" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="A4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="更新用户" vertex="1">
+          <mxGeometry height="30" width="60" x="330" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="m2" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;dashed=1;" value="店铺与入驻" vertex="1">
+          <mxGeometry height="130" width="280" x="420" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="shop_hub" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="店铺入口" vertex="1">
+          <mxGeometry height="30" width="60" x="430" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="S1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="店铺列表" vertex="1">
+          <mxGeometry height="25" width="60" x="500" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="S2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="店铺详情" vertex="1">
+          <mxGeometry height="25" width="60" x="570" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="S3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="预约状态" vertex="1">
+          <mxGeometry height="25" width="55" x="640" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="S4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="首页配置" vertex="1">
+          <mxGeometry height="25" width="60" x="500" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="S5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="申请入驻" vertex="1">
+          <mxGeometry height="25" width="60" x="570" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="S6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="店铺管理" vertex="1">
+          <mxGeometry height="25" width="55" x="640" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="S7" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="审核列表" vertex="1">
+          <mxGeometry height="25" width="60" x="530" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="S8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="入驻审核" vertex="1">
+          <mxGeometry height="25" width="60" x="610" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="m3" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;dashed=1;" value="宠物管理" vertex="1">
+          <mxGeometry height="130" width="250" x="720" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pet_hub" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="宠物入口" vertex="1">
+          <mxGeometry height="30" width="60" x="730" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="P1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="宠物列表" vertex="1">
+          <mxGeometry height="25" width="55" x="800" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="P2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="宠物详情" vertex="1">
+          <mxGeometry height="25" width="55" x="860" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="P3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="新增宠物" vertex="1">
+          <mxGeometry height="25" width="45" x="920" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="P4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="更新宠物" vertex="1">
+          <mxGeometry height="25" width="55" x="800" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="P5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="删除宠物" vertex="1">
+          <mxGeometry height="25" width="55" x="860" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="P6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="宠物数量" vertex="1">
+          <mxGeometry height="25" width="45" x="920" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="m4" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;dashed=1;" value="订单" vertex="1">
+          <mxGeometry height="130" width="230" x="990" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="order_hub" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="订单入口" vertex="1">
+          <mxGeometry height="30" width="60" x="1000" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="O1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="创建订单" vertex="1">
+          <mxGeometry height="25" width="55" x="1070" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="O2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="订单列表" vertex="1">
+          <mxGeometry height="25" width="55" x="1130" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="O3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="订单详情" vertex="1">
+          <mxGeometry height="25" width="55" x="1070" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="取消订单" vertex="1">
+          <mxGeometry height="25" width="55" x="1130" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="O5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="商家处理" vertex="1">
+          <mxGeometry height="25" width="55" x="1070" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="O6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="寄养统计" vertex="1">
+          <mxGeometry height="25" width="55" x="1130" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="O7" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="核查只读" vertex="1">
+          <mxGeometry height="25" width="50" x="1190" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m5" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;dashed=1;" value="寄养日志" vertex="1">
+          <mxGeometry height="100" width="180" x="160" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="log_hub" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="日志入口" vertex="1">
+          <mxGeometry height="30" width="60" x="170" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="L1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="上传日志" vertex="1">
+          <mxGeometry height="30" width="70" x="250" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="L2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="日志列表" vertex="1">
+          <mxGeometry height="30" width="70" x="250" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="m6" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;dashed=1;" value="评价" vertex="1">
+          <mxGeometry height="100" width="260" x="360" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="review_hub" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="评价入口" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="R1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="提交评价" vertex="1">
+          <mxGeometry height="25" width="55" x="440" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="R2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="评价列表" vertex="1">
+          <mxGeometry height="25" width="55" x="500" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="R3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="管理列表" vertex="1">
+          <mxGeometry height="25" width="55" x="560" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="R4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="回复评价" vertex="1">
+          <mxGeometry height="25" width="55" x="460" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="R5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="评价统计" vertex="1">
+          <mxGeometry height="25" width="55" x="530" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="m7" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;dashed=1;" value="纠纷工单" vertex="1">
+          <mxGeometry height="100" width="320" x="640" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="dispute_hub" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="工单入口" vertex="1">
+          <mxGeometry height="30" width="60" x="650" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="D1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="创建工单" vertex="1">
+          <mxGeometry height="25" width="55" x="720" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="D2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="工单列表" vertex="1">
+          <mxGeometry height="25" width="55" x="780" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="D3" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="工单详情" vertex="1">
+          <mxGeometry height="25" width="55" x="840" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="D4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="追加消息" vertex="1">
+          <mxGeometry height="25" width="55" x="900" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="D5" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="按订单查" vertex="1">
+          <mxGeometry height="25" width="55" x="720" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="D6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="工单统计" vertex="1">
+          <mxGeometry height="25" width="55" x="780" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="D7" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="指派给我" vertex="1">
+          <mxGeometry height="25" width="55" x="840" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="D8" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="结案" vertex="1">
+          <mxGeometry height="25" width="55" x="900" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="m8" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;verticalAlign=top;dashed=1;" value="首页配置管理" vertex="1">
+          <mxGeometry height="100" width="180" x="980" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="home_admin_hub" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="配置入口" vertex="1">
+          <mxGeometry height="30" width="60" x="990" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="H1" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="更新首页配置" vertex="1">
+          <mxGeometry height="30" width="80" x="1070" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="note1" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;" value="注1：管理员禁止下单与改订单状态（仅只读核查）" vertex="1">
+          <mxGeometry height="30" width="280" x="870" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="note2" parent="1" style="whiteSpace=wrap;html=1;fillColor=none;dashed=1;dashPattern=1 1;" value="注2：同一订单仅允许存在一个未结案纠纷工单（open/processing 幂等）" vertex="1">
+          <mxGeometry height="30" width="350" x="870" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="e_guest_shop" edge="1" parent="1" source="2" style="html=1;endArrow=classic;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="shop_hub">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_user_auth" edge="1" parent="1" source="3" style="html=1;endArrow=classic;exitX=1;exitY=0.2;entryX=0;entryY=0.5;" target="auth_hub">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_user_shop" edge="1" parent="1" source="3" style="html=1;endArrow=classic;exitX=1;exitY=0.3;entryX=0;entryY=1;" target="shop_hub">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_user_pet" edge="1" parent="1" source="3" style="html=1;endArrow=classic;exitX=1;exitY=0.4;entryX=0;entryY=0.5;" target="pet_hub">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_user_order" edge="1" parent="1" source="3" style="html=1;endArrow=classic;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="order_hub">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_user_log" edge="1" parent="1" source="3" style="html=1;endArrow=classic;exitX=1;exitY=0.6;entryX=0;entryY=0.5;" target="log_hub">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_user_review" edge="1" parent="1" source="3" style="html=1;endArrow=classic;exitX=1;exitY=0.7;entryX=0;entryY=0.5;" target="review_hub">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_user_dispute" edge="1" parent="1" source="3" style="html=1;endArrow=classic;exitX=1;exitY=0.8;entryX=0;entryY=0.5;" target="dispute_hub">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_shop_auth" edge="1" parent="1" source="4" style="html=1;endArrow=classic;exitX=1;exitY=0.2;entryX=0;entryY=1;" target="auth_hub">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_shop_shop" edge="1" parent="1" source="4" style="html=1;endArrow=classic;exitX=1;exitY=0.3;entryX=0;entryY=1;" target="shop_hub">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="370" />
+              <mxPoint x="120" y="115" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_shop_order" edge="1" parent="1" source="4" style="html=1;endArrow=classic;exitX=1;exitY=0.5;entryX=0;entryY=1;" target="order_hub">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_shop_log" edge="1" parent="1" source="4" style="html=1;endArrow=classic;exitX=1;exitY=0.6;entryX=0;entryY=1;" target="log_hub">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_shop_review" edge="1" parent="1" source="4" style="html=1;endArrow=classic;exitX=1;exitY=0.7;entryX=0;entryY=1;" target="review_hub">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_shop_dispute" edge="1" parent="1" source="4" style="html=1;endArrow=classic;exitX=1;exitY=0.8;entryX=0;entryY=1;" target="dispute_hub">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_admin_auth" edge="1" parent="1" source="5" style="html=1;endArrow=classic;exitX=1;exitY=0.2;entryX=0;entryY=1;" target="auth_hub">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_admin_shop" edge="1" parent="1" source="5" style="html=1;endArrow=classic;exitX=1;exitY=0.3;entryX=0;entryY=1;" target="shop_hub">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e_admin_order" edge="1" parent="1" source="5" style="html=1;endArrow=classic;exitX=1;exitY=0.5;entryX=0;entryY=1;" target="order_hub">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_admin_dispute" edge="1" parent="1" source="5" style="html=1;endArrow=classic;exitX=1;exitY=0.7;entryX=0;entryY=1;" target="dispute_hub">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e_admin_home" edge="1" parent="1" source="5" style="html=1;endArrow=classic;exitX=1;exitY=0.8;entryX=0;entryY=1;" target="home_admin_hub">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_auth1" edge="1" parent="1" source="auth_hub" style="html=1;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="A1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_auth2" edge="1" parent="1" source="auth_hub" style="html=1;endArrow=none;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" target="A2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_auth3" edge="1" parent="1" source="auth_hub" style="html=1;endArrow=none;exitX=1;exitY=0.7;entryX=0;entryY=0.5;" target="A3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_auth4" edge="1" parent="1" source="auth_hub" style="html=1;endArrow=none;exitX=1;exitY=1;entryX=0;entryY=0.5;" target="A4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_shop1" edge="1" parent="1" source="shop_hub" style="html=1;endArrow=none;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" target="S1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_shop2" edge="1" parent="1" source="shop_hub" style="html=1;endArrow=none;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" target="S2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_shop3" edge="1" parent="1" source="shop_hub" style="html=1;endArrow=none;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" target="S3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_shop4" edge="1" parent="1" source="shop_hub" style="html=1;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="S4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_shop5" edge="1" parent="1" source="shop_hub" style="html=1;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="S5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_shop6" edge="1" parent="1" source="shop_hub" style="html=1;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="S6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_shop7" edge="1" parent="1" source="shop_hub" style="html=1;endArrow=none;exitX=1;exitY=0.7;entryX=0;entryY=0.5;" target="S7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_shop8" edge="1" parent="1" source="shop_hub" style="html=1;endArrow=none;exitX=1;exitY=0.7;entryX=0;entryY=0.5;" target="S8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_pet1" edge="1" parent="1" source="pet_hub" style="html=1;endArrow=none;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" target="P1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_pet2" edge="1" parent="1" source="pet_hub" style="html=1;endArrow=none;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" target="P2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_pet3" edge="1" parent="1" source="pet_hub" style="html=1;endArrow=none;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" target="P3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_pet4" edge="1" parent="1" source="pet_hub" style="html=1;endArrow=none;exitX=1;exitY=0.7;entryX=0;entryY=0.5;" target="P4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_pet5" edge="1" parent="1" source="pet_hub" style="html=1;endArrow=none;exitX=1;exitY=0.7;entryX=0;entryY=0.5;" target="P5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_pet6" edge="1" parent="1" source="pet_hub" style="html=1;endArrow=none;exitX=1;exitY=0.7;entryX=0;entryY=0.5;" target="P6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_order1" edge="1" parent="1" source="order_hub" style="html=1;endArrow=none;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" target="O1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_order2" edge="1" parent="1" source="order_hub" style="html=1;endArrow=none;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" target="O2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_order3" edge="1" parent="1" source="order_hub" style="html=1;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="O3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_order4" edge="1" parent="1" source="order_hub" style="html=1;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="O4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_order5" edge="1" parent="1" source="order_hub" style="html=1;endArrow=none;exitX=1;exitY=0.7;entryX=0;entryY=0.5;" target="O5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_order6" edge="1" parent="1" source="order_hub" style="html=1;endArrow=none;exitX=1;exitY=0.7;entryX=0;entryY=0.5;" target="O6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_order7" edge="1" parent="1" source="order_hub" style="html=1;endArrow=none;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" target="O7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_log1" edge="1" parent="1" source="log_hub" style="html=1;endArrow=none;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" target="L1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_log2" edge="1" parent="1" source="log_hub" style="html=1;endArrow=none;exitX=1;exitY=0.7;entryX=0;entryY=0.5;" target="L2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_review1" edge="1" parent="1" source="review_hub" style="html=1;endArrow=none;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" target="R1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_review2" edge="1" parent="1" source="review_hub" style="html=1;endArrow=none;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" target="R2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_review3" edge="1" parent="1" source="review_hub" style="html=1;endArrow=none;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" target="R3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_review4" edge="1" parent="1" source="review_hub" style="html=1;endArrow=none;exitX=1;exitY=0.7;entryX=0;entryY=0.5;" target="R4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_review5" edge="1" parent="1" source="review_hub" style="html=1;endArrow=none;exitX=1;exitY=0.7;entryX=0;entryY=0.5;" target="R5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_dispute1" edge="1" parent="1" source="dispute_hub" style="html=1;endArrow=none;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" target="D1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_dispute2" edge="1" parent="1" source="dispute_hub" style="html=1;endArrow=none;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" target="D2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_dispute3" edge="1" parent="1" source="dispute_hub" style="html=1;endArrow=none;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" target="D3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_dispute4" edge="1" parent="1" source="dispute_hub" style="html=1;endArrow=none;exitX=1;exitY=0.3;entryX=0;entryY=0.5;" target="D4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_dispute5" edge="1" parent="1" source="dispute_hub" style="html=1;endArrow=none;exitX=1;exitY=0.7;entryX=0;entryY=0.5;" target="D5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_dispute6" edge="1" parent="1" source="dispute_hub" style="html=1;endArrow=none;exitX=1;exitY=0.7;entryX=0;entryY=0.5;" target="D6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_dispute7" edge="1" parent="1" source="dispute_hub" style="html=1;endArrow=none;exitX=1;exitY=0.7;entryX=0;entryY=0.5;" target="D7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_dispute8" edge="1" parent="1" source="dispute_hub" style="html=1;endArrow=none;exitX=1;exitY=0.7;entryX=0;entryY=0.5;" target="D8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="h_home1" edge="1" parent="1" source="home_admin_hub" style="html=1;endArrow=none;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="H1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
