@@ -1,0 +1,109 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="page-1">
+    <mxGraphModel dx="1042" dy="696" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="lane1" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;" value="申请人（普通用户）" vertex="1">
+          <mxGeometry height="540" width="200" x="40" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="n1" parent="lane1" style="whiteSpace=wrap;html=1;" value="登录" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="n2" parent="lane1" style="whiteSpace=wrap;html=1;" value="填写入驻申请" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="n3" parent="lane1" style="whiteSpace=wrap;html=1;" value="选择位置" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="n4" parent="lane1" style="whiteSpace=wrap;html=1;" value="上传资质材料" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="n5" parent="lane1" style="whiteSpace=wrap;html=1;" value="提交入驻申请" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="n6" parent="lane1" style="whiteSpace=wrap;html=1;" value="修改申请信息" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="n7" parent="lane1" style="whiteSpace=wrap;html=1;" value="进入商家工作台" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="lane2" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;" value="系统" vertex="1">
+          <mxGeometry height="540" width="200" x="280" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="s1" parent="lane2" style="whiteSpace=wrap;html=1;" value="保存/更新入驻申请" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" parent="lane2" style="rhombus;whiteSpace=wrap;html=1;" value="管理员审核校验" vertex="1">
+          <mxGeometry height="60" width="140" x="30" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" parent="lane2" style="whiteSpace=wrap;html=1;" value="开通商家身份" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="s4" parent="lane2" style="whiteSpace=wrap;html=1;" value="记录拒绝原因" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="lane3" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=none;" value="管理员" vertex="1">
+          <mxGeometry height="540" width="200" x="520" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="a1" parent="lane3" style="whiteSpace=wrap;html=1;" value="查看申请列表" vertex="1">
+          <mxGeometry height="40" width="120" x="40" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="a2" parent="lane3" style="rhombus;whiteSpace=wrap;html=1;" value="审核通过/拒绝" vertex="1">
+          <mxGeometry height="60" width="140" x="30" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="n1" style="html=1;endArrow=classic;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="n2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="n2" style="html=1;endArrow=classic;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="n3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="n3" style="html=1;endArrow=classic;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="n4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="n4" style="html=1;endArrow=classic;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="n5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="n5" style="html=1;endArrow=classic;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="s1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="s1" style="html=1;endArrow=classic;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" target="a1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="a1" style="html=1;endArrow=classic;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="a2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="a2" style="html=1;endArrow=classic;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" target="s2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="s2" style="html=1;endArrow=classic;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="s3" value="通过">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="s2" style="html=1;endArrow=classic;exitX=1;exitY=1;entryX=0.5;entryY=0;" target="s4" value="拒绝">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="450" y="450" />
+              <mxPoint x="450" y="480" />
+              <mxPoint x="460" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="s3" style="html=1;endArrow=classic;exitX=0;exitY=0.5;entryX=1;entryY=0.5;" target="n7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e12" edge="1" parent="1" source="s4" style="html=1;endArrow=classic;exitX=0;exitY=0.5;entryX=1;entryY=0.5;dashed=1;" target="n6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e13" edge="1" parent="1" source="n6" style="html=1;endArrow=classic;exitX=0.5;exitY=0;entryX=0;entryY=0.5;dashed=1;" target="s1" value="重新提交">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="100" y="380" />
+              <mxPoint x="260" y="380" />
+              <mxPoint x="260" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
