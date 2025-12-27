@@ -1,0 +1,97 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="page-1">
+    <mxGraphModel dx="1500" dy="730" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" parent="1" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=14;fontStyle=1;startSize=40;" value="系统边界：宠物寄养小程序系统" vertex="1">
+          <mxGeometry height="370" width="780" x="20" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="3" parent="2" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;startSize=30;" value="普通用户端模块" vertex="1">
+          <mxGeometry height="280" width="170" x="20" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4" parent="3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" value="登录与身份" vertex="1">
+          <mxGeometry height="30" width="120" x="25" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="5" parent="3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" value="首页店铺" vertex="1">
+          <mxGeometry height="30" width="120" x="25" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="6" parent="3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" value="宠物管理" vertex="1">
+          <mxGeometry height="30" width="120" x="25" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="7" parent="3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" value="下单计价" vertex="1">
+          <mxGeometry height="30" width="120" x="25" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="8" parent="3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" value="订单与详情" vertex="1">
+          <mxGeometry height="30" width="120" x="25" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="9" parent="3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" value="评价" vertex="1">
+          <mxGeometry height="25" width="55" x="25" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="10" parent="3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#6c8ebf;" value="纠纷工单" vertex="1">
+          <mxGeometry height="25" width="55" x="90" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="11" parent="2" style="swimlane;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;startSize=30;" value="商家端模块" vertex="1">
+          <mxGeometry height="280" width="170" x="210" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="12" parent="11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;" value="商家工作台" vertex="1">
+          <mxGeometry height="30" width="120" x="25" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="13" parent="11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;" value="店铺管理" vertex="1">
+          <mxGeometry height="30" width="120" x="25" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="14" parent="11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;" value="订单处理" vertex="1">
+          <mxGeometry height="30" width="120" x="25" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="15" parent="11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;" value="寄养日志" vertex="1">
+          <mxGeometry height="30" width="120" x="25" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="16" parent="11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;" value="评价管理" vertex="1">
+          <mxGeometry height="30" width="120" x="25" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="17" parent="11" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#d6b656;" value="纠纷处理" vertex="1">
+          <mxGeometry height="25" width="120" x="25" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="18" parent="2" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=12;fontStyle=1;startSize=30;" value="管理员端模块" vertex="1">
+          <mxGeometry height="280" width="170" x="400" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="19" parent="18" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;" value="管理后台首页" vertex="1">
+          <mxGeometry height="30" width="120" x="25" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="20" parent="18" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;" value="入驻审核" vertex="1">
+          <mxGeometry height="30" width="120" x="25" y="85" as="geometry" />
+        </mxCell>
+        <mxCell id="21" parent="18" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;" value="公告管理" vertex="1">
+          <mxGeometry height="30" width="120" x="25" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="22" parent="18" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;" value="Banner管理" vertex="1">
+          <mxGeometry height="30" width="120" x="25" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="23" parent="18" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;" value="订单核查（只读）" vertex="1">
+          <mxGeometry height="30" width="120" x="25" y="205" as="geometry" />
+        </mxCell>
+        <mxCell id="24" parent="18" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#9673a6;" value="纠纷结案" vertex="1">
+          <mxGeometry height="25" width="120" x="25" y="245" as="geometry" />
+        </mxCell>
+        <mxCell id="25" parent="2" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8f8f8;strokeColor=#82b366;fontSize=12;fontStyle=1;startSize=30;" value="公共能力与数据层" vertex="1">
+          <mxGeometry height="280" width="170" x="590" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="26" parent="25" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="权限控制" vertex="1">
+          <mxGeometry height="30" width="120" x="25" y="45" as="geometry" />
+        </mxCell>
+        <mxCell id="27" parent="25" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="云函数入口" vertex="1">
+          <mxGeometry height="30" width="120" x="25" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="28" parent="25" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="云数据库" vertex="1">
+          <mxGeometry height="30" width="120" x="25" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="29" parent="25" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="云存储" vertex="1">
+          <mxGeometry height="30" width="120" x="25" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="30" parent="25" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="首页配置" vertex="1">
+          <mxGeometry height="30" width="120" x="25" y="225" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
