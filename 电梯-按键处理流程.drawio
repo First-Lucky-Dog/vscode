@@ -1,0 +1,106 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/143.0.0.0 Safari/537.36" version="29.2.9">
+  <diagram name="Page-1" id="page-1">
+    <mxGraphModel dx="1281" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="start" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="开始" vertex="1">
+          <mxGeometry height="40" width="80" x="340" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="read_p1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="读取 P1 口&lt;br&gt;flag_m = P1" vertex="1">
+          <mxGeometry height="50" width="120" x="320" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="check_key" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="flag_m ≠ 0xFF ？&lt;br&gt;是否有按键按下" vertex="1">
+          <mxGeometry height="80" width="170" x="295" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="check_stop" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="flag_d == 0 ？&lt;br&gt;电梯是否处于停止状态" vertex="1">
+          <mxGeometry height="80" width="200" x="280" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="check_change" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="flag_m ≠ om ？&lt;br&gt;按键是否变化" vertex="1">
+          <mxGeometry height="80" width="170" x="295" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="save_key" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="om = flag_m&lt;br&gt;保存按键值" vertex="1">
+          <mxGeometry height="50" width="120" x="210" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="convert_key" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="switch 按键转换&lt;br&gt;tmp = 1–3" vertex="1">
+          <mxGeometry height="50" width="120" x="365" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="update_floor" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="更新目标楼层&lt;br&gt;flag_o = tmp" vertex="1">
+          <mxGeometry height="50" width="120" x="515" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="end_node" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="结束" vertex="1">
+          <mxGeometry height="40" width="80" x="340" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="label_yes1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="是" vertex="1">
+          <mxGeometry height="20" width="30" x="360" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="label_no1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="否" vertex="1">
+          <mxGeometry height="20" width="30" x="470" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="label_yes2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="是" vertex="1">
+          <mxGeometry height="20" width="30" x="360" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="label_no2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="否" vertex="1">
+          <mxGeometry height="20" width="30" x="485" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="label_yes3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="是" vertex="1">
+          <mxGeometry height="20" width="30" x="360" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="label_no3" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;" value="否" vertex="1">
+          <mxGeometry height="20" width="30" x="470" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="e1" edge="1" parent="1" source="start" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="read_p1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e2" edge="1" parent="1" source="read_p1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="check_key">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e3" edge="1" parent="1" source="check_key" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="check_stop">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e4" edge="1" parent="1" source="check_key" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;exitX=1;exitY=0.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="690" y="230" />
+              <mxPoint x="690" y="580" />
+            </Array>
+            <mxPoint x="580" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e5" edge="1" parent="1" source="check_stop" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="check_change">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e6" edge="1" parent="1" source="check_stop" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;exitX=1;exitY=0.5;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e7" edge="1" parent="1" source="check_change" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="save_key">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="380" y="510" />
+              <mxPoint x="270" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e8" edge="1" parent="1" source="check_change" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;exitX=1;exitY=0.5;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="600" y="450" />
+            </Array>
+            <mxPoint x="680" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="e9" edge="1" parent="1" source="save_key" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="convert_key">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e10" edge="1" parent="1" source="convert_key" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;exitX=1;exitY=0.5;entryX=0;entryY=0.5;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" target="update_floor">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e11" edge="1" parent="1" source="update_floor" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=classic;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" target="end_node">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
